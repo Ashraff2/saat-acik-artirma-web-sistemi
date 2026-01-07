@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>WatchAuction - Ana Sayfa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">WatchAuction</a>
+        
+        <input type="text" id="searchInput" placeholder="Saat ara..." onkeyup="searchWatches()" 
+               style="padding:8px; border-radius:5px; border:none; width:200px; text-align:center;">
+
+        <div id="nav-links"></div>
+    </nav>
+
+    <div class="container">
+        <h1 style="text-align:center; color:#2c3e50;">Özel Koleksiyon Müzayedesi</h1>
+        <div id="watchGrid" class="grid"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
